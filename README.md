@@ -28,4 +28,4 @@ Check FQDN 40 times against default or provided DNS servers to get a feel for th
 
 ## trend-chaser
 
-Trying to accommodate... *interesting*... Executive asks. An unrelated team was given direction to scrape data from the target site, however, they quickly found themselves being rate-limited and blocked, thus NetEng was engaged. In the spirit of trying to assist, I put this tool together to (hopefully) identify an acceptable rate of requests to avoid being served 429s.
+Trying to accommodate unusual asks. An unrelated team was given direction to scrape data from the target site, however, they quickly found themselves being rate-limited and blocked, thus NetEng was engaged. In the spirit of trying to assist, I put this tool together to (hopefully) identify an acceptable rate of requests to avoid being served 429s.
