@@ -15,7 +15,7 @@ The "Turbo cURL" mode  runs 10 concurrent cURLs 10 times; this is not intended t
 
 ## check-redirects
 
-Loops through provided /24 network range and hits endpoints on HTTP and records any HTTP to HTTPS redirects. Originally used to determine if any public HTTP load balancer IPs were misconfigured and did not contain a 443 redirect. Boo, hiss, HTTP bad!
+Loops through provided /24 network range hitting endpoints on HTTP and records any redirects. Originally used to determine if any public HTTP load balancer IPs were misconfigured and did not contain a 443 redirect. Boo, hiss, HTTP bad!
 
 
 
