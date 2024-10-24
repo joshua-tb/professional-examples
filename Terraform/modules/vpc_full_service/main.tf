@@ -23,7 +23,7 @@ locals {
 }
 
 ## IP Factory module
-
+## NOT INCLUDED WITH PROFESSIONAL EXAMPLES
 module "VPC_IP_FACTORY" {
   source = "../ip_factory/vpc_blocks"
 
