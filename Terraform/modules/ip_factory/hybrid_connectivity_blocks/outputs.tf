@@ -1,0 +1,85 @@
+output "VA_REGION_RANGES_INDEX" {
+  value = local.VA_REGION_RANGES_INDEX
+}
+
+output "VA_REGION_RANGES_MAP" {
+  value = local.VA_REGION_RANGES_MAP
+}
+
+output "VA_DIC_RANGES_INDEX" {
+  value = local.VA_DIC_RANGES_INDEX
+}
+
+output "VA_DIC_RANGES_MAP" {
+  value = local.VA_DIC_RANGES_MAP
+}
+
+output "VLAN_ID_INDEX" {
+  value = local.VLAN_ID_INDEX
+}
+
+output "VPNGW_REGION_RANGES_INDEX" {
+  value = local.VPNGW_REGION_RANGES_INDEX
+}
+
+output "VPNGW_REGION_RANGES_MAP" {
+  value = local.VPNGW_REGION_RANGES_MAP
+}
+
+output "VPNGW_DIC_RANGES_INDEX" {
+  value = local.VPNGW_DIC_RANGES_INDEX
+}
+
+output "VPNGW_DIC_RANGES_MAP" {
+  value = local.VPNGW_DIC_RANGES_MAP
+}
+
+output "VPNGW_INTS_REMOTE_ADDR" {
+  value = local.VPNGW_INTS_REMOTE_ADDR
+}
+
+output "TUNNEL_REGION_RANGES_INDEX" {
+  value = local.TUNNEL_REGION_RANGES_INDEX
+}
+
+output "TUNNEL_REGION_RANGES_MAP" {
+  value = local.TUNNEL_REGION_RANGES_MAP
+}
+
+output "TUNNEL_DICS_RANGES_INDEX" {
+  value = local.TUNNEL_DICS_RANGES_INDEX
+}
+
+output "TUNNEL_DICS_RANGES_MAP" {
+  value = local.TUNNEL_DICS_RANGES_MAP
+}
+
+output "TUNNEL_INTS_RANGES_INDEX" {
+  value = local.TUNNEL_INTS_RANGES_INDEX
+}
+
+output "TUNNEL_INTS_ADDRS_VPC_ROUTER" {
+  value = local.TUNNEL_INTS_ADDRS_VPC_ROUTER
+}
+
+output "TUNNEL_INTS_ADDRS_REMOTE_ROUTERS" {
+  value = local.TUNNEL_INTS_ADDRS_REMOTE_ROUTERS
+}
+
+output "VPC_ROUTER_TUNNEL_INT_IPS" {
+  value = local.VPC_ROUTER_TUNNEL_INT_IPS
+}
+
+output "REMOTE_TUNNEL_INT_IPS" {
+  value = local.REMOTE_TUNNEL_INT_IPS
+}
+
+
+
+output "VPNGW_DIC_RANGES_ASSIGNED" {
+  value = local.VPNGW_DIC_RANGES_ASSIGNED
+}
+
+output "VA_DIC_RANGES_ASSIGNED" {
+  value = local.VA_DIC_RANGES_ASSIGNED
+}
