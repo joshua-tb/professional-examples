@@ -283,16 +283,7 @@ turbocurl () {
 	time.total: %{time_total} \
 	http.code: %{http_code} \
 	final.url: %{url_effective}" \
-	-o /dev/null \
-	  --request POST \
-    --url https://lvx-image-builder-5wh5k25m4a-wm.a.run.app/ \
-    --header 'Content-Type: application/json' \
-    --header "Authorization: Bearer ${cachedtoken}" \
-    --data '{
-        "templateId": "sitesale_sale",
-        "imageUrl": "https://ak1.ostkcdn.com/images/products/25671909/L30976227.jpg?imwidth=480&impolicy=medium",
-        "taxonomy": "Bedding & Bath"
-}')" 
+	-o /dev/null \" 
 	done
 }
 
@@ -436,15 +427,6 @@ final.url: %{url_effective}
 num.connects: %{num_connects}
 ssl.verify: %{ssl_verify_result}
 " \
-  --request POST \
-  --url https://lvx-image-builder-5wh5k25m4a-wm.a.run.app/ \
-  --header 'Content-Type: application/json' \
-  --header "Authorization: Bearer $(gcloud auth print-identity-token)" \
-  --data '{
-        "templateId": "sitesale_sale",
-        "imageUrl": "https://ak1.ostkcdn.com/images/products/25671909/L30976227.jpg?imwidth=480&impolicy=medium",
-        "taxonomy": "Bedding & Bath"
-}' \
   -o /dev/null)
 
 echo "$completeresults" > tmpresults.txt
